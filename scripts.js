@@ -74,14 +74,14 @@ function changeContent(page) {
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
                 <img
                     src="./img/lpa logo.jpg"
                     alt=""
                     class="img-fluid rounded mx-auto d-block"
                      />
             </div>
-            <div class="col-6 text-center py-5">
+            <div class="col-md-6 col-sm-12 text-center py-5">
                     <p class="py-5">At Learning Point Academy (LPA), we're dedicated to transforming lives through education. With a focus on personalized support, we offer academic tutoring, test preparation, and enrichment programs tailored to each learner's needs. Our experienced educators are committed to nurturing a love for learning and fostering academic success through innovative teaching methodologies. Beyond academics, we prioritize holistic development, equipping students with critical thinking, creativity, and resilience for lifelong success. As more than just tutors, we're mentors and partners in your educational journey. Whether you're a student seeking support or a parent investing in your child's future, join our vibrant community at LPA. Let's unlock endless possibilities together and pave the way for a brighter tomorrow.
                     </p><figcaption class="blockquote-footer">
                     <cite title="Source Title">Where Learning Thrives!</cite>
@@ -142,9 +142,3 @@ function changeContent(page) {
 // 	}
 // });
 
-const navToggle = document.querySelector(".nav-toggle");
-const links = document.querySelector(".links");
-
-navToggle.addEventListener("click", function () {
-	links.classList.toggle("show-links");
-});
